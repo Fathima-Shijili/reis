@@ -841,7 +841,6 @@ p {
         background-color: rgb(71, 100, 167);
         position: absolute;
         top:160px;
-        right:10px;
         width: 100%;
         align-items:center;
         z-index: 10;
@@ -931,9 +930,11 @@ img.map
 @media (max-width: 768px){
         .nav-menu
      {
-        top: 69px;
-        right:30px;
-        width:100%;
+        top:160px;
+        left:0;
+        width: 100%;
+        align-items:center;
+        z-index: 10;
     }
         .icon i{
         display: none;
