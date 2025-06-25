@@ -275,7 +275,6 @@ hr {
     max-width: 60%;
 }
 .grid h1{
-    margin:25px;
     color: white;
     font-size:24px;
     font-weight:600;
@@ -300,7 +299,7 @@ color: white;
 .grid .map{
 
     position:absolute;
-    bottom:35px;
+    bottom:5px;
 }
 
 .grid-img{
@@ -378,6 +377,8 @@ color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
     gap: 24px;
 }
 .box h2 {
@@ -828,9 +829,6 @@ p {
 .hero-wrap{
  height:750px;
 }
-.grid .map{
-    padding: 50px;
-}
 @media (max-width: 1226px) {
     .hamburger {
         display: block;
@@ -927,8 +925,7 @@ img.map
     padding-top:150px;
 }
 .grid .map {
-    top: 50%;
-    left: -8%;
+    bottom: 5px;
     }
 }
 @media (max-width: 768px){
@@ -950,7 +947,7 @@ img.map
         display: block;}
         .grid-img img
         {
-        min-height: 300px;
+        min-height:400px;
 }
     .grid{
     display: flex;
