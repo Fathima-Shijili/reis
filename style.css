@@ -317,6 +317,7 @@ color: white;
      height: 100%;
     display: block;
     object-fit: cover;
+    border-radius: 10px;
 }
 .grids a {
     position: absolute;
@@ -984,9 +985,6 @@ img.map
     width: 0;
     height: 0px;
     
-}
-.sc1{
-    padding-top: 300px;
 }
 .bottom-sctn .down{
 
