@@ -292,7 +292,7 @@ color: white;
     grid-template-columns:repeat(3, 1fr); 
     gap: 20px; 
     width: 100%;
-    padding:100px;
+    padding:55px;
 }
 .grid-text{
     position: absolute;
@@ -464,7 +464,7 @@ color: white;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
-    padding:100px;
+    padding:55px;
 }
 .card-rows .img-container img{
     width:100%;
@@ -517,7 +517,6 @@ color: white;
 .pics {
     display: flex;
     justify-content: space-between;
-    padding-right: 16px;
     padding-top: 16px;
 }
 .pic {
@@ -598,7 +597,7 @@ p {
     
       object-fit: cover;
     }
-    swiper-slide button{
+    /* swiper-slide button{
      position: absolute;
     top: 50%;
     left: 50%;
@@ -611,9 +610,9 @@ p {
     border: 1px solid #ffffff;
     border-radius: 4px;
     z-index: 10;
-    cursor: pointer;
+    cursor: pointer; */
 
-    }
+    
 .container-6 {
   background-size: cover;
   display: flex;
@@ -900,7 +899,7 @@ p {
 }
 
 .container-7{
-    padding: 100px;
+    padding: 55px;
 }
 .container-7 h1{
     font-size: 16px;
@@ -908,9 +907,6 @@ p {
 }
 .container-7 p{
     font-size: 12px;
-}
-.container-7 div{
-    padding:5px;
 }
 img.map
 {
@@ -925,7 +921,9 @@ img.map
 }
 .grid .map {
     bottom: 5px;
-    }
+   
+    left:16px;
+}
 }
 @media (max-width: 768px){
         .nav-menu
@@ -948,6 +946,7 @@ img.map
         display: block;}
         .grid-img img
         {
+            padding: 5px;
         min-height:400px;
 }
     .grid{
@@ -961,7 +960,7 @@ img.map
     }
         .card-rows 
         {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding:100px 20px;
     
     }
@@ -1014,7 +1013,10 @@ img.map
 }
 .bottom-sctn {
     box-shadow: none;
-}}
+}
+.share img{
+        padding:5px;
+    }}
 @media (max-width:640px){
    
    .bottom-sctn .down{
@@ -1024,5 +1026,30 @@ img.map
    .down hr{
     display: none;
    }
+           .card-rows 
+        {
+    grid-template-columns: repeat(1, 1fr);
+    padding:100px 20px;
+    gap:40px;
+    
+    }
+    .share img{
+        padding:5px;
+    }
+        .middle-sctn {
+        padding-top: 100px;
+        }
+        .sctn4{
+            padding: 100px;
+        }
+        header .container {
+            padding: 10px;
+        }
+        .container1 p {
+    font-size: 12px;}
+    .container1 span {
+        font-size: 12px;
+    }
+
 
 }
