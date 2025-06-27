@@ -412,7 +412,6 @@ color: white;
     width: fit-content;
     cursor: pointer;
     color: #4a60a1;
-    background-color: rgba(239, 245, 249, 1);
     padding: 0;
 }
 .box-container{
@@ -463,7 +462,7 @@ color: white;
 .card-rows {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     padding:55px;
 }
@@ -476,6 +475,7 @@ color: white;
     gap: 16px;
 }
 .para .p1 {
+    font-weight: 600;
     color: #4A60A1;
 }
 .cont1 {
@@ -490,35 +490,37 @@ color: white;
     display: flex;
     flex-direction: row;
     width: 100%;
-
-    gap: 24px;
     padding-bottom: 16px;
     padding-top: 16px;
 }
 .car p {
-    font-size: 10px;
+    font-size: 14px;
     color: grey;
+    font-weight: 600;
 }
 
 .car1 {
     display: flex;
     align-items:center;
     width: 100%;
+    gap: 5px;
 }
 .bathtub {
     display: flex;
     align-items: center;
     width: 100%;
+    gap: 5px;
 }
 .arrow {
     display: flex;
     align-items: center;
     width: 100%;
+    gap: 5px;
 }
 .pics {
     display: flex;
     justify-content: space-between;
-    padding-top: 16px;
+    padding: 20px;
 }
 .pic {
     display: flex;
@@ -659,13 +661,13 @@ p {
 
 .container-6 button {
    display: flex;
-    background-color: blueviolet;
+    background:transparent;
+    border: 1px solid white;
     color: white;
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: none;
     border-radius: 4px;
 }
 
@@ -743,6 +745,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding-top: 15px;
 }
 .feature div {
     display: flex;
@@ -763,6 +766,7 @@ p {
 }
 
 .company {
+     padding-top: 15px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -786,6 +790,7 @@ p {
 }
 
 .policy {
+     padding-top: 15px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -832,8 +837,13 @@ p {
 .hero-wrap{
  height:750px;
 }
+.grid-img img{
+    border-radius: 10px;
+}
 @media (max-width: 1226px) {
     .hamburger {
+        position: absolute;
+        right:10px;
         display: block;
         padding:20px;
     }
@@ -841,9 +851,10 @@ p {
      {
         display: none;
         flex-direction: column;
-        background-color: rgb(71, 100, 167);
+        background-color: rgb(84 102 127);
         position: absolute;
-        top:160px;
+        top:170px;
+        left:0;
         width: 100%;
         align-items:center;
         z-index: 10;
@@ -925,6 +936,9 @@ img.map
    
     left:16px;
 }
+.share{
+    gap:5px;
+}
 }
 @media (max-width: 768px){
         .nav-menu
@@ -947,8 +961,12 @@ img.map
         display: block;}
         .grid-img img
         {
-            padding: 5px;
+            padding: 10px;
+            border-radius: 10px;
         min-height:400px;
+}
+.pics {
+    padding: 9px;
 }
     .grid{
     display: flex;
@@ -962,11 +980,11 @@ img.map
         .card-rows 
         {
     grid-template-columns: repeat(2, 1fr);
-    padding:100px 20px;
+    padding:100px 25px;
     
     }
     .box{
-    padding-top: 60px;}
+    padding-top: 30px;}
 
        .container-7{
         display:flex;
@@ -1047,7 +1065,41 @@ img.map
     font-size: 12px;}
     .container1 span {
         font-size: 12px;
+    }.sctn3 p {
+        max-width: 95%;
     }
-
+    .cont1{
+        padding:4px;
+    }
+    .grid { padding: 30px 24px;
+    }
+    .grid-img img{
+        padding: 0px;
+        min-height: 250px;
+        border-radius: 10px;
+    }
+        .grid-text h1, .grid-text h2 {
+            font-size: 20px;}
+            .sctn4 h1{
+                padding-top: 20px;
+                font-size:29px;
+            }
+            .sctn4 p {
+                padding-bottom: 0;
+            }
+            .sctn3 h1{
+                font-size: 30px;
+            }
+            .container-6 p{
+                max-width: 100%;
+                font-size: 12px;
+            }
+             .container-6{
+                
+                padding: 40px 45px;
+             }
+              .container-6 h1{
+                font-size: 30px;
+              }
 
 }
