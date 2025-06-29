@@ -268,17 +268,17 @@ hr {
 }
 
 .section-1 .labell {
-  bottom:20%;
-  right: -10%;
+  bottom:10%;
+  right: 0%;
 }
 .section-2 .labell {
-  bottom: 20%;
-  left: -10%;
+  bottom: 10%;
+  left: 0%;
 }
 
 .section-3 .labell {
-  bottom: 20%;
-  right: -10%;
+  bottom: 10%;
+  right: 0%;
 }
 
 .labell img {
@@ -333,7 +333,27 @@ height:40px;
     flex-direction: column;
     width:100%;
  }
- .container-7 {
+  .container-7
+       {
+        display:flex;
+        flex-direction:column;
+        padding:50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       } 
+       .sctn7{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+         .container-7 h1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;}
+ /* .container-7 {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -344,7 +364,7 @@ height:40px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-}
+} */
 .house {
     display: flex;
     flex-direction: row;
@@ -356,6 +376,7 @@ height:40px;
     color: rgba(74, 96, 161, 1);
 }
 .bighead p {
+  margin: 0;
     font-size: 14px;
     font-weight: 400;
     color: rgba(74, 96, 161, 1);
@@ -396,6 +417,7 @@ height:40px;
 .logos {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 16px;
 }
 
@@ -406,6 +428,7 @@ height:40px;
     background-color: rgba(237, 239, 246, 1);
 }
 .feature {
+  padding-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -430,6 +453,7 @@ height:40px;
 }
 
 .company {
+  padding-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -454,6 +478,8 @@ height:40px;
 }
 
 .policy {
+   padding-top: 40px;
+  
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -474,7 +500,7 @@ height:40px;
   margin:0;
     font-size: 16px;
     font-weight: 400;
-    color: rgba(109, 115, 122, 1);
+    color: rgba(109,115,122,1);
 }
 .right-section .house-img{
   width: 100%;
@@ -487,7 +513,7 @@ height:40px;
   display:none;
  }
 
-@media (max-width: 768px){
+@media (max-width: 800px){
   .container-7{
     padding: 50px;
   }
@@ -505,28 +531,106 @@ height:40px;
     padding: 50px 25px;
         }
       .section-1 .labell {
-  bottom:20%;
-  right:0%;
+        padding: 20px;
+  bottom:5%;
 }
+    .section-1 .labell hr{
+      height: 28px;
+    }
+    .section-1 .labell p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+margin:0
+
+    }
 .section-2 .labell {
-  bottom: 20%;
-  left: 0%;
+  bottom: 5%;
+  padding:20px;
 }
+.labell img {
+    width: 24px;
+    height: 30px;}
+     .section-2 .labell hr{
+      height: 28px;
+    }
+    .section-2 .labell p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+margin:0
+
+    }
+    /* padding-top:13px;} */
 
 .section-3 .labell {
-  bottom: 20%;
-  right: 0%;
+  bottom: 5%;
+  padding:2opx;
 }
+ .section-3 .labell hr{
+      height: 28px;
+    }
+    .section-3 .labell p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+margin:0
+
+    }
+    .logos div {
+      padding: 10px;
+    }
+    header .container {
+      padding:10px;
+    }
        .container-7
        {
         display:flex;
         flex-direction:column;
         padding:50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
        } 
+       .sctn7{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+         .container-7 h1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;}
+       .bighead{
+        padding-top: 5px;
+       }
     
       }
        @media (max-width: 1024px)
        {
+         .container-7
+       {
+        display:flex;
+        flex-direction:column;
+        padding:50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       } 
+       .sctn7{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+         .container-7 h1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+  }
        .container2 nav a
        {
         padding:2px;
@@ -553,7 +657,7 @@ height:40px;
      {
         display: none;
         flex-direction: column;
-        background-color:rgb(21, 36, 120);
+        background-color:rgb(45 59 98);
         position: absolute;
         top:200px;
         left:0;
@@ -582,3 +686,22 @@ height:40px;
     padding:none;
     border:none;
 } }
+@media (max-width:640px)
+{
+                .container4 .right nav
+              {
+                display:none;
+              }
+.container1 p {
+    font-size: 12px;
+}
+.section-1 .labell{
+  padding:0;
+}
+.section-2 .labell{
+  padding:0;
+}
+.section-3 .labell{
+  padding:0;
+}
+}

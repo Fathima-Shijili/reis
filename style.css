@@ -378,6 +378,7 @@ color: white;
     height: 60px;
 }
 .box {
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -399,7 +400,7 @@ color: white;
     font-weight: 600;
 }
 .box p {
-    width: 100%;
+    max-width:95%;
     font-size: 16px;
     font-weight: 400;
     color: #889099;
@@ -489,7 +490,7 @@ color: white;
 .car {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 70%;
     padding-bottom: 16px;
     padding-top: 16px;
 }
@@ -671,7 +672,7 @@ p {
     border-radius: 4px;
 }
 
-
+/* 
 .container-7 {
     display: flex;
     flex-direction: row;
@@ -682,21 +683,21 @@ p {
 .sctn7 {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-}
+    gap: 24px; */
+
 .house {
     display: flex;
     flex-direction: row;
     gap: 8px;
 }
 .bighead h1 {
-    font-size: 24px;
-    font-weight: 600;
+    /* font-size: 24px;
+    font-weight: 600; */
     color: rgba(74, 96, 161, 1);
 }
-.bighead p {
-    font-size: 14px;
-    font-weight: 400;
+.bighead p {margin: 0;
+    /* font-size: 14px;
+    font-weight: 400; */
     color: rgba(74, 96, 161, 1);
 }
 .sctn7a h1 {
@@ -709,6 +710,7 @@ p {
     color: rgba(27, 29, 31, 1);
 }
 .sctn7b {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -737,9 +739,9 @@ p {
     gap: 16px;
 }
 .logos div {
-    padding: 16px;
+    padding: 12px;
     color: rgba(74, 96, 161, 1);
-    background-color: rgba(237, 239, 246, 1);
+    ground-color: rgba(237, 239, 246, 1);
 }
 .feature {
     display: flex;
@@ -838,7 +840,7 @@ p {
  height:750px;
 }
 .grid-img img{
-    border-radius: 10px;
+    border-radius: 20px;
 }
 @media (max-width: 1226px) {
     .hamburger {
@@ -851,7 +853,7 @@ p {
      {
         display: none;
         flex-direction: column;
-        background-color: rgb(84 102 127);
+        ground-color: rgb(84 102 127);
         position: absolute;
         top:170px;
         left:0;
@@ -903,6 +905,11 @@ p {
     font-size: 12px;
     gap:1px;
 }
+.sctn4 h1, p {
+    margin: 10px;
+}
+
+
 .down{
     padding:10px 10px;
 }
@@ -916,9 +923,6 @@ p {
 .container-7 h1{
     font-size: 16px;
     font-weight: 400;
-}
-.container-7 p{
-    font-size: 12px;
 }
 img.map
 {
@@ -937,8 +941,34 @@ img.map
     left:16px;
 }
 .share{
+   
     gap:5px;
 }
+       .container-7
+       {
+        display:flex;
+        flex-direction:column;
+        padding:50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       } 
+       .sctn7{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+        /* .container-7 h1{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0; */
+
+       .bighead{
+        padding-top: 5px;
+       }
+    
 }
 @media (max-width: 768px){
         .nav-menu
@@ -962,7 +992,7 @@ img.map
         .grid-img img
         {
             padding: 10px;
-            border-radius: 10px;
+            border-radius: 20px;
         min-height:400px;
 }
 .pics {
@@ -984,7 +1014,7 @@ img.map
     
     }
     .box{
-    padding-top: 30px;}
+    padding-top: 10px;}
 
        .container-7{
         display:flex;
@@ -1004,6 +1034,10 @@ img.map
     height: 0px;
     
 }
+.cont1 {
+    padding-left:0;
+    padding-right:0;
+    padding-top: 25px;}
 .bottom-sctn .down{
 
 
@@ -1013,27 +1047,37 @@ img.map
     gap:20px;
 }
 .box-container{
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: max-content;
     padding:5px;
 
 }
 .box-container .boxs{
-    padding:5px;
+    padding:20px;
 }
 .middle-sctn{
-    padding-top:150px;
+    padding-top:100px;
 }
 /* .bottom-sctn {
     box-shadow: none;
 } */
 .share img{
         padding:5px;
-    }}
-@media (max-width:640px){
+    }
+    .container-7 h1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+.bighead{
+    padding-top: 5px;
+}}
+
+@media (max-width:640px)
+{
    
    .bottom-sctn .down{
      display:grid;
@@ -1085,7 +1129,7 @@ img.map
                 font-size:29px;
             }
             .sctn4 p {
-                padding-bottom: 0;
+                padding-bottom: 20px;
             }
             .sctn3 h1{
                 font-size: 30px;
@@ -1100,6 +1144,14 @@ img.map
              }
               .container-6 h1{
                 font-size: 30px;
+              }
+              .box{
+                padding:10px;
+              }
+              .swiper-wrapper{
+                transition-duration: 0ms;
+    transition-delay: 0ms;
+    transform: translate3d(393.375px, 0px, 0px);
               }
 
 }
